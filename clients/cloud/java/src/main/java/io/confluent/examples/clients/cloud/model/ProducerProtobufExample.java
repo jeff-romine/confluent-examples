@@ -15,7 +15,9 @@
  */
 package io.confluent.examples.clients.cloud.model;
 
-import io.confluent.examples.clients.cloud.DataRecordProto;
+
+
+import io.confluent.examples.clients.cloud.DataRecordProtos.DataRecordProto;
 import io.confluent.kafka.serializers.protobuf.KafkaProtobufSerializer;
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.NewTopic;
